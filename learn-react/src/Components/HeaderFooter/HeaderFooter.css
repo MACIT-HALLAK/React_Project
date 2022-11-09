@@ -1,0 +1,28 @@
+.wrapper-cart{
+    padding: 25px;
+    height: 300px;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.but-element{
+    display: block;
+    margin: 15px;
+    width: 160px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-size: large;
+    
+}
+.we{
+    margin-top: 30px;
+    text-align: center;
+}
+.hf-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+}

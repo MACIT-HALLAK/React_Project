@@ -1,0 +1,15 @@
+.radio{
+    margin-right: 5px;
+}
+.card-body{
+    height: 425px;
+}
+.cont{
+    margin-left: 15px;
+}
+
+.kontrol-panel{
+    display:flex;
+    justify-content:space-between;
+    
+}

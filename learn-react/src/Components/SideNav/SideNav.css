@@ -1,0 +1,36 @@
+.wrapper-vir{
+    padding: 0px;
+     background-color: #f8f9fa;
+     display: flex;
+     position: relative;
+ }
+ .wrapper-vir .sidebar{
+     width: 100%;
+     border: 3px solid blue;
+     height: 549px;
+ }
+ .wrapper-vir .sidebar h2{
+    padding: 15px;
+    color: blue;
+ }
+ .wrapper-vir .sidebar ul li{
+     list-style: none;
+     font-size: 20px;
+     padding: 10px;
+ }
+ .wrapper-vir .sidebar ul li:hover{
+     background-color: teal;
+     color: white;
+     
+ }
+ .wrapper-vir .sidebar ul{
+    color: blue;
+     padding-left: 10px;
+ }
+ .wrapper-vir .sidebar ul li .btn-side-nav{
+     background-color: #f8f9fa;
+     color: Blue;
+     border: none;
+     width: 100%;
+     text-align: left;
+ }
