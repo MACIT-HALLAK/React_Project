@@ -1,5 +1,7 @@
 import './DersExample.css';
 import {useEffect, useState} from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DersExample = (soru) => {
   //sorular arasında geçişler için
@@ -10,15 +12,46 @@ const DersExample = (soru) => {
     setNext(next +1)  
     
   }
+  const Previous =()=>{
+    
+    setNext(next -1)  
+    if(next == 0){
+      setNext(0)  
+
+    }
+    
+    
+  }
 //cevapları doğru olup olmadığını kontrol amaçlı
   const [cevap ,setCevap] = useState();
   const Kontrol =()=>{
     if(soru.item[soru.id].sorular[next].cevap == cevap){
-      alert('cevapiniz dogrudur ');
+      notify();
     }else{
-      alert('cevapiniz yanlistir ');
+      notify1();
     }
     }
+   const notify = () => toast.success('Cevapınız Doğrudur !', {
+    position: "top-right",
+    autoClose: 2000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    });
+   const notify1 = () => toast.error('Cevapınız Yanlıştır !', {
+    position: "top-right",
+    autoClose: 2000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    });
+
      
     //soru id her değişiklerde bu hook çalışacak ve next değerini güncellencek
      useEffect(()=>{        
@@ -32,13 +65,13 @@ const DersExample = (soru) => {
             <div className="card border-success mb-3" >
               {soru.id < soru.item.length  ? 
               <>
-              <div key={soru.item[soru.id].id} className="card-header bg-transparent border-success"><h3>{soru.item[soru.id].DersAdi}</h3></div>
+              <div key={soru.item[soru.id].id} className="card-header title-t bg-transparent border-success"><h3>{soru.item[soru.id].DersAdi}</h3></div>
               <div  className="card-body text-success">
                   <h5 className="card-title">Tanıtım</h5>
                   <p className="card-text">{soru.item[soru.id].aciklama}</p>
                   
                   
-                    {next < soru.item[soru.id].sorular.length ? 
+                    {next < soru.item[soru.id].sorular.length  ? 
                     <div className='cont'>
                       <h5 className="card-title">Soru {next+1}</h5>
                       <p className="card-text">{soru.item[soru.id].sorular[next].soru}:</p>
@@ -57,16 +90,19 @@ const DersExample = (soru) => {
                </div>
               
               </>
-              : <h2>derler yok  </h2>}
+              : <h2> dersler yok  </h2>}
             
               <div className="card-footer kontrol-panel bg-transparent border-success">
-                
-                  <button className='btn btn-primary' onClick={Next} >Next</button>
-                  <button className='btn btn-success' onClick={Kontrol} >Kontrol Et</button>
+                <div>
+                  <button className='btn btn-warning mar' onClick={Previous} >Önceki</button>
+                  <button className='btn btn-success mar' onClick={Next} >Sonraki</button>
+                  </div>
+                  <button className='btn btn-danger' onClick={Kontrol} >Kontrol Et</button>
                   
                   
               </div>
             </div>
+            <ToastContainer/>
         </div>
        
   )

@@ -1,6 +1,8 @@
 import React from 'react'
 import {soru} from '../DataSoru'
 import './SideNav.css'
+import Shake from 'react-reveal/Shake';
+
 
 
 function SideNav( {filterById} ) {
@@ -21,9 +23,16 @@ function SideNav( {filterById} ) {
                        { 
                            return( 
                                 <>
-                                   
-                                    <li><button key={item.id} onClick={()=> onfilter(item.id)} className='btn-side-nav'>Ders {item.id}</button></li>
-                                    
+                                   <Shake>
+                                    <li>
+                                         <button
+                                         key={item.id} 
+                                         onClick={()=> onfilter(item.id)} 
+                                         className='btn-side-nav'>{item.DersAdi}
+                                         </button>
+                                    </li>
+                                    </Shake>
+
                                 </>
                           ) 
 

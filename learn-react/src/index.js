@@ -15,8 +15,6 @@ ReactDOM.render(
           <Route path='/Derslerim' element={<Derslerim />}/>
         </Routes>
       </Router>
-     
-    
     
     ,document.getElementById('root'));
 

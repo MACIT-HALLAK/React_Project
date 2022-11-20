@@ -1,5 +1,7 @@
 import './HeaderMiddel.css';
 import slider from '../../assets/images/ilkokul.jpeg'
+import slider1 from '../../assets/images/slider2.jpeg'
+import slider2 from '../../assets/images/slider3.jpeg'
 const HeaderMiddel = () => {
   return (
     <div className="wrapper-slider ">
@@ -19,13 +21,13 @@ const HeaderMiddel = () => {
         </div>
       <div className="carousel-inner img-raduis">
           <div className="carousel-item active">
-            <img src={slider} className="d-block w-100" alt="..."/>
+            <img src={slider1} className="d-block w-100 diddi" alt="..."/>
           </div>
         <div className="carousel-item">
-            <img src={slider} className="d-block w-100" alt="..."/>
+            <img src={slider} className="d-block w-100 diddi" alt="..."/>
         </div>
         <div className="carousel-item">
-            <img src={slider} className="d-block w-100" alt="..."/>
+            <img src={slider2} className="d-block w-100 diddi" alt="..."/>
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

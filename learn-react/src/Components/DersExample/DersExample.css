@@ -5,11 +5,19 @@
     height: 425px;
 }
 .cont{
-    margin-left: 15px;
+    margin-left: 20px;
+    margin-top: 70px;
+    color: #1b9243;
 }
-
+.title-t{
+    background-color: mediumseagreen!important;
+    color: white;
+}
 .kontrol-panel{
     display:flex;
     justify-content:space-between;
     
+}
+.mar{
+    margin-right: 5px;
 }

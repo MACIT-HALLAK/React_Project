@@ -1,5 +1,5 @@
 import './NavItems.css'
-
+import { Link } from 'react-router-dom'
 const NavItems = (props) => {
   return (
     <li className="nav-item">
@@ -18,9 +18,9 @@ const NavItemsDrop = (props) => {
 
   const DropdownItem = (props) => {
     return (
-      <li><a className="dropdown-item" href={props.href}>
+      <li><Link className="dropdown-item" to='/Derslerim' state={{ders:props.id,sinif:props.text}}>
         {props.text}
-        </a></li>
+        </Link></li>
     )
   }
 export default NavItems;

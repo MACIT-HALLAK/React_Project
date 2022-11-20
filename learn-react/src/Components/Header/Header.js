@@ -2,6 +2,7 @@ import './Header.css';
 import NavItems,{NavItemsDrop,DropdownItem} from '../navItems/NavItems';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/images/calculator.png'
+
 const Header = () => {
     
   return (
@@ -18,28 +19,24 @@ const Header = () => {
           <Link className="nav-link active" aria-current="page" to='/'>Ana sayfa</Link>
          
           </NavItems>
-          <NavItems>
-          
-          <Link className="nav-link active" aria-current="page" to='/Derslerim'>Derslerim</Link>
          
-          </NavItems>
         <NavItems>
           
-          <Link className="nav-link" to='/Egzersiz'>Egzersizler</Link>
+          <Link className="nav-link" to='/Egzersiz' state={{data:1}}>Egzersizler</Link>
         </NavItems>
         <NavItemsDrop>
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Sınıflar
           </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <DropdownItem text='1.sinif' href='#'/>              
-                            <DropdownItem text='2.sinif' href='#'/>              
-                            <DropdownItem text='3.sinif' href='#'/>              
-                            <DropdownItem text='4.sinif' href='#'/>              
-                            <DropdownItem text='5.sinif' href='#'/>              
-                            <DropdownItem text='6.sinif' href='#'/>              
-                            <DropdownItem text='7.sinif' href='#'/>              
-                            <DropdownItem text='8.sinif' href='#'/>              
+                            <DropdownItem text='1.sınıf' id='1'/>              
+                            <DropdownItem text='2.sınıf' id='2'/>              
+                            <DropdownItem text='3.sınıf' id='3'/>              
+                            <DropdownItem text='4.sınıf' id='4' />              
+                            <DropdownItem text='5.sınıf' id='5' />              
+                            <DropdownItem text='6.sınıf' id='6' />              
+                            <DropdownItem text='7.sınıf' id='7'/>              
+                            <DropdownItem text='8.sınıf' id='8' />              
                                        
                         </ul>
                

@@ -18,11 +18,13 @@
      font-size: 20px;
      padding: 10px;
  }
- .wrapper-vir .sidebar ul li:hover{
-     background-color: teal;
-     color: white;
+  .wrapper-vir .sidebar ul li:hover{
+     /* background-color: teal;
+     color: white; */
+     border-bottom: 1px solid teal;
+    
      
- }
+ } 
  .wrapper-vir .sidebar ul{
     color: blue;
      padding-left: 10px;
@@ -34,3 +36,9 @@
      width: 100%;
      text-align: left;
  }
+ /* @media(min-width:0)and( max-width:950px) {
+
+    .wrapper-vir .sidebar h2 {
+        font-size: 5px;
+    }
+ } */

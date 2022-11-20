@@ -1,5 +1,5 @@
 import './Footer.css';
-import { FaFacebook,FaInstagram,FaTwitter,FaMapMarkedAlt} from "react-icons/fa";
+import { FaFacebook,FaInstagram,FaTwitter,FaMapMarkedAlt,FaRegEnvelope,FaPhoneSquareAlt,FaFax} from "react-icons/fa";
 const Footer = () => {
   return (
     
@@ -30,9 +30,9 @@ Bilgisayar Mühendisliği Bölümü.</p>
                 <div className="col-lg-4 col-md-6">
                     <h5 className="text-white mb-3">iletişim</h5>
                     <ul className="list-unstyled text-muted">
-                        <li>e-posta : Matematik@bara.maced</li>
-                        <li>phone : +905541662332</li>
-                        <li>Fax : ---- </li>
+                        <li><FaRegEnvelope/> Matematik@bara.maced</li>
+                        <li><FaPhoneSquareAlt/> +905541662332</li>
+                        <li><FaFax/> Fax : ---- </li>
                     </ul>
                 </div>
                 
