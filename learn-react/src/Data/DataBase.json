@@ -1,0 +1,86 @@
+{
+    "class":[
+    {"siniflar":[
+        {"sinif":[
+            { "id":"1",
+                "dersAdi":"Sayilar",
+              "aciklama":"sayi yada numara, rakmlardan yada rakamlarin bir araya",
+              "sorular":[
+                 {"id":"1","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"a","sec2":"b","sec3":"5","cevap":"a","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"},
+                 {"id":"2","soru":"Aşağıdakilerden hangisi doal sayılardan değildir","sec1":"5.6","sec2":"5","sec3":"1","cevap":"5","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"},
+                 {"id":"3","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"6","sec2":"8","sec3":"5","cevap":"a","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"}
+                 
+            ]},
+     
+            { "id":"2",
+                "dersAdi":"doğal Sayilar",
+              "aciklama":"sayi yada numara, rakmlardan yada rakamlarin bir araya",
+              "sorular":[
+                 {"id":"1","soru":"Aşağıdakilerden hangisi sayılardan değildir2","sec1":"a","sec2":"8","sec3":"5","cevap":"a","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"},
+                 {"id":"2","soru":"Aşağıdakilerden hangisi doal sayılardan değildir","sec1":"5.6","sec2":"5","sec3":"1","cevap":"5","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"},
+                 {"id":"3","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"6","sec2":"8","sec3":"5","cevap":"a","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"}
+                 
+            ]},
+     
+            { "id":"3",
+                "dersAdi":"Pozitif Tam Sayilar",
+              "aciklama":"sayi yada numara, rakmlardan yada rakamlarin bir araya",
+              "sorular":[
+                 {"id":"1","soru":"Aşağıdakilerden hangisi sayılardan değildir3","sec1":"a","sec2":"8","sec3":"5","cevap":"a","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"},
+                 {"id":"2","soru":"Aşağıdakilerden hangisi doal sayılardan değildir","sec1":"5.6","sec2":"5","sec3":"1","cevap":"5","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"},
+                 {"id":"3","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"6","sec2":"8","sec3":"5","cevap":"a","cozumYontem":"bildiniz gibi sayilar 1 den 9 kadar baslar a harfi sayilardan olmadigi icin dorgu cevap a olacaktir"}
+                 
+            ]}
+     
+         ]
+
+        },
+    {"sinif":[
+            { "id":"1",
+                "dersAdi":"Sayilar2",
+              "aciklama":"sayi yada numara, rakmlardan yada rakamlarin bir araya",
+              "sorular":[
+                 {"id":"1","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"a","sec2":"8","sec3":"2","cevap":"a"},
+                 {"id":"2","soru":"Aşağıdakilerden hangisi doal sayılardan değildir","sec1":"5.6","sec2":"5","sec3":"1","cevap":"5"},
+                 {"id":"3","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"6","sec2":"8","sec3":"2","cevap":"a"}
+                 
+            ]},
+     
+            { "id":"2",
+              "dersAdi":"doğal Sayilar2",
+              "aciklama":"sayi yada numara, rakmlardan yada rakamlarin bir araya",
+              "sorular":[
+                 {"id":"1","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"a","sec2":"b","sec3":"2","cevap":"a"},
+                 {"id":"2","soru":"Aşağıdakilerden hangisi doal sayılardan değildir","sec1":"5.6","sec2":"5","sec3":"1","cevap":"5"},
+                 {"id":"3","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"6","sec2":"8","sec3":"2","cevap":"a"}
+                 
+            ]},
+     
+            { "id":"3",
+                "dersAdi":"Pozitif Tam Sayilar3",
+              "aciklama":"sayi yada numara, rakmlardan yada rakamlarin bir araya",
+              "sorular":[
+                 {"id":"1","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"a","sec2":"8","sec3":"2","cevap":"a"},
+                 {"id":"2","soru":"Aşağıdakilerden hangisi doal sayılardan değildir","sec1":"5.6","sec2":"5","sec3":"1","cevap":"5"},
+                 {"id":"3","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"6","sec2":"8","sec3":"2","cevap":"a"}
+                 
+            ]},
+            { "id":"4",
+                "dersAdi":"negatif Tam Sayilar4",
+              "aciklama":"sayi yada numara, rakmlardan yada rakamlarin bir araya",
+              "sorular":[
+                 {"id":"1","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"a","sec2":"8","sec3":"2","cevap":"a"},
+                 {"id":"2","soru":"Aşağıdakilerden hangisi doal sayılardan değildir","sec1":"5.6","sec2":"5","sec3":"1","cevap":"5"},
+                 {"id":"3","soru":"Aşağıdakilerden hangisi sayılardan değildir","sec1":"6","sec2":"8","sec3":"2","cevap":"a"}
+                 
+            ]}
+     
+         ]
+    }
+]}
+    
+       
+]  
+
+   
+}

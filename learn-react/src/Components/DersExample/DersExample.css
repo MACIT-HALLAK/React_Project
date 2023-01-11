@@ -1,23 +1,22 @@
-.radio{
-    margin-right: 5px;
+.radio {
+  margin-right: 5px;
 }
-.card-body{
-    height: 425px;
+.card-body {
+  height: 425px;
 }
-.cont{
-    margin-left: 20px;
-    margin-top: 70px;
-    color: #1b9243;
+.cont {
+  margin-left: 20px;
+  margin-top: 70px;
+  color: #1b9243;
 }
-.title-t{
-    background-color: mediumseagreen!important;
-    color: white;
+.title-t {
+  background-color: mediumseagreen !important;
+  color: white;
 }
-.kontrol-panel{
-    display:flex;
-    justify-content:space-between;
-    
+.kontrol-panel {
+  display: flex;
+  justify-content: space-between;
 }
-.mar{
-    margin-right: 5px;
+.mar {
+  margin-right: 5px;
 }

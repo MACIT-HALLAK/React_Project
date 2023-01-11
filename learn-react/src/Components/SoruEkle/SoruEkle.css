@@ -1,0 +1,9 @@
+.main-card {
+    height: 84vh !important;
+}
+.con {
+    display: flex;
+    justify-content:center;
+}
+
+

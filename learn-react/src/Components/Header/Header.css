@@ -1,4 +1,14 @@
-.navbar-img{
-    height: 50px;
-   
+.navbar-img {
+  height: 50px;
+}
+.item {
+  list-style: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar{
+  padding-bottom: 0px;
+  padding-top: 0px;
 }

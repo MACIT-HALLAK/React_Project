@@ -1,0 +1,16 @@
+.puan-baslik{
+    text-align: center;
+    padding: 20px;
+}
+.puan{
+    color: green;
+}
+.puan-value{
+    margin:15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 60px;
+    border-left: 20px solid green;
+    border-right: 20px solid green;
+    color: black;
+}
